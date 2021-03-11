@@ -60,7 +60,9 @@ public class ServiceServerUDPProxy {
             /* ivoca il servizio, ottiene il risultato, e calcola la risposta */
             /*
              * la risposta puo' avere le seguenti forme:
-             * "#risultato" oppure "@messaggio per eccezione"
+             * "#risultato" oppure 
+			 * "@messaggio per eccezione di servizio" oppure 
+			 * "!messaggio per eccezione remota"
              */
             String reply = null;
             try {
@@ -73,7 +75,7 @@ public class ServiceServerUDPProxy {
     		} catch (RemoteException e) {
                 /* il servente non solleva MAI RemoteException, 
 				 * ma si può arrivare qui da executeOperation() se la richiesta è malformata */
-                reply = "@" + e.getMessage();
+                reply = "!" + e.getMessage();
             }
     		logger.info("Server Proxy: sending reply: " + reply);
 

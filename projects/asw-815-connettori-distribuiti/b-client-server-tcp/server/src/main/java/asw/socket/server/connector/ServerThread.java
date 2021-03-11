@@ -62,7 +62,7 @@ public class ServerThread extends Thread {
     		} catch (RemoteException e) {
                 /* il servente non solleva MAI RemoteException, 
 				 * ma si può arrivare qui da executeOperation() se la richiesta è malformata */
-                reply = "@" + e.getMessage();
+                reply = "!" + e.getMessage();
             }
 
     		/* invia la risposta */

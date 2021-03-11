@@ -72,7 +72,9 @@ public class ServiceClientUDPProxy implements Service {
 
             /*
              * elabora la risposta, che puo' avere le seguenti forme:
-             * "#risultato" oppure "@messaggio per eccezione"
+             * "#risultato" oppure 
+			 * "@messaggio per eccezione di servizio" oppure 
+			 * "!messaggio per eccezione remota"
              */
         	if (reply.startsWith("#")) {
         		/* e' un risultato */
@@ -81,6 +83,10 @@ public class ServiceClientUDPProxy implements Service {
         		/* si e' verificata una ServiceException */
         		String message = reply.substring(1);
         		throw new ServiceException(message);
+        	} else if (reply.startsWith("!")) {
+        		/* si e' verificata una RemoteException */
+        		String message = reply.substring(1);
+        		throw new RemoteException(message);
         	} else {
         		/* risposta malformata, solleva una RemoteException */
         		throw new RemoteException("Malformed reply: " + reply);
