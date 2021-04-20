@@ -1,2 +1,4 @@
 ### escludi i moduli puppet ###
 /puppet/modules/*
+### ma includi la cartella ###
+!/puppet/modules/
