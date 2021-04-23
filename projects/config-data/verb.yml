@@ -1,7 +1,7 @@
 # verb.yml
 --- 
 spring: 
-  profiles: verb
+  config.activate.on-profile: verb
 
 server: 
   port: 8082

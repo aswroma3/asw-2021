@@ -1,7 +1,7 @@
 # object.yml
 --- 
 spring: 
-  profiles: object
+  config.activate.on-profile: object
 
 server: 
   port: 8083

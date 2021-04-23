@@ -1,7 +1,7 @@
 # subject.yml
 --- 
 spring: 
-  profiles: subject
+  config.activate.on-profile: subject
 
 server: 
   port: 8081
