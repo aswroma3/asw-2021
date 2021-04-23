@@ -6,13 +6,13 @@ lucky:
 
 ---
 spring: 
-  profiles: english 
+  config.activate.on-profile: english 
 lucky: 
   word: Happy
 
 ---
 spring: 
-  profiles: italian 
+  config.activate.on-profile: italian 
 lucky: 
   word: Evviva
 
