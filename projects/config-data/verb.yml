@@ -8,4 +8,5 @@ server:
 
 asw.sentence: 
   wordservice: 
-    words: works,works
+#    words: works,works
+    words: WORKS,WORKS

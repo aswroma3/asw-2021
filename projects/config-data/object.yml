@@ -8,4 +8,5 @@ server:
 
 asw.sentence: 
   wordservice: 
-    words: from remote files,from remote files
+#    words: from remote files,from remote files
+    words: FROM REMOTE FILES,FROM REMOTE FILES    
