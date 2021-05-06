@@ -13,7 +13,7 @@ java -Xms64m -Xmx128m -jar -Dspring.profiles.active=object -Dasw.sentence.wordse
 
 echo Starting Sentence Service [*1]
 
-java -Xms64m -Xmx128m -jar -Dasw.sentence.sentenceservice.delay=50 sentence-service/build/libs/sentence.jar &
+java -Xms64m -Xmx128m -jar -Dasw.sentence.sentenceservice.instancename=S1 -Dasw.sentence.sentenceservice.delay=50 sentence-service/build/libs/sentence.jar &
 
 sleep 10
 

@@ -23,7 +23,4 @@ server:
   port: ${PORT:${SERVER_PORT:0}}
 #  port: 8080
 
-asw.sentence: 
-  sentenceservice: 
-    returnLatency: false
 
