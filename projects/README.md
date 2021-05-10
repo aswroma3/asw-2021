@@ -122,18 +122,18 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 
 ## Progetti Docker 
 
+* [asw-880-docker](asw-880-docker/): esempi di *container Docker* 
+
 <!---
-* [asw-880-docker](asw-880-docker/): esempi di *contenitori Docker* 
+* [asw-885-docker-composizione](asw-885-docker-composizione/): *composizione* di *container Docker* 
 
-* [asw-885-docker-composizione](asw-885-docker-composizione/): *composizione* di *contenitori Docker* 
-
-* [asw-899-docker-su-swarm](asw-899-docker-su-swarm/): rilascio di un'applicazione multi-servizi e multi-contenitori sullo swarm *swarm.inf.uniroma3.it*
+* [asw-899-docker-su-swarm](asw-899-docker-su-swarm/): rilascio di un'applicazione multi-servizi e multi-container sullo swarm *swarm.inf.uniroma3.it*
 -->
 
 ## Progetti Kubernetes 
 
 <!---
-* [asw-890-kubernetes](asw-890-kubernetes/): *orchestrazione* di contenitori con *Kubernetes* 
+* [asw-890-kubernetes](asw-890-kubernetes/): *orchestrazione* di container con *Kubernetes* 
 -->
 
 <!---
