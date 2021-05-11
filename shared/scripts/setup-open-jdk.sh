@@ -12,5 +12,5 @@ echo "==================="
 echo "installing open jdk"
 echo "==================="
 
-apt update 
-apt install -y ${OPENJDK_PACKAGE}
+apt-get update 
+apt-get install -y ${OPENJDK_PACKAGE}
