@@ -136,10 +136,12 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 * [asw-890-kubernetes](asw-890-kubernetes/): *orchestrazione* di container con *Kubernetes* 
 -->
 
-<!---
 ## Progetti per l'anno accademico 2020-2021 
 
-* [asw-instagnam](asw-instagnam/): *Instagnam*: un semplice social-network per la condivisione di ricette di cucina 
+* [asw-sfingegram](asw-sfingegram/): *Sfingegram*: un semplice social network per la condivisione di enigmi (ovvero, giochi enigmistici) 
+
+<!---
+* [asw-instagnam](asw-instagnam/): *Instagnam*: un semplice social network per la condivisione di ricette di cucina 
 -->
 
 <!---
