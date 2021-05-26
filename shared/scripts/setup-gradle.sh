@@ -5,7 +5,7 @@ source "/home/asw/shared/scripts/common.sh"
 # set up Gradle constants 
 # https://services.gradle.org/distributions/gradle-6.8.3-bin.zip
 
-GRADLE_VERSION=6.8.3
+GRADLE_VERSION=6.9
 
 GRADLE_ARCHIVE=gradle-${GRADLE_VERSION}-bin.zip
 GET_GRADLE_URL=https://services.gradle.org/distributions
