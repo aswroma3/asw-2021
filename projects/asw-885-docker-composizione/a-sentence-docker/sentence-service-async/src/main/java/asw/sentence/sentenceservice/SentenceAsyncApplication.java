@@ -8,9 +8,9 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableAsync
-public class SentenceApplication {
+public class SentenceAsyncApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SentenceApplication.class, args);
+		SpringApplication.run(SentenceAsyncApplication.class, args);
 	}
 }
