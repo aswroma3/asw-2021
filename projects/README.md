@@ -116,6 +116,7 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 ## Progetti Vagrant 
 
 * [asw-870-strumenti-ambienti-virtuali](asw-870-strumenti-ambienti-virtuali/): gestione di ambienti virtuali con *Vagrant* e *Oracle VM VirtualBox* 
+
 <!---
   nient'altro da escludere 
 -->
@@ -132,8 +133,10 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 
 ## Progetti Kubernetes 
 
-<!---
 * [asw-890-kubernetes](asw-890-kubernetes/): *orchestrazione* di container con *Kubernetes* 
+
+<!---
+  nient'altro da escludere 
 -->
 
 ## Progetti per l'anno accademico 2020-2021 
